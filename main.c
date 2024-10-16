@@ -8,7 +8,7 @@
 #include <pthread.h>
 
 #define MAX_RESULTS 10
-#define MAX_THREADS 10
+#define MAX_THREADS 4
 
 typedef struct {
     const char* file_path;
